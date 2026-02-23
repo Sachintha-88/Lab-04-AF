@@ -1,3 +1,5 @@
+console.log("http request");
+
 const https = require('https');
 https.get('https://jsonplaceholder.typicode.com/posts/1', (resp) => {
  let data = '';
@@ -10,6 +12,7 @@ https.get('https://jsonplaceholder.typicode.com/posts/1', (resp) => {
 }).on('error', (err) => {
  console.log("Error: " + err.message);
 });
+
 console.log("web-server");
 
 const http = require('http');
@@ -18,6 +21,7 @@ http.createServer(function (req, res) {
  res.write('Hello World!');
  res.end();
 }).listen(8080);
+
 console.log("read file");
 
 const fs = require('fs');
@@ -33,3 +37,8 @@ fs.writeFile('file.txt', 'Hello World!', function (err) {
  if (err) throw err;
  console.log('File saved!');
 });
+
+console.log("module");
+
+const myModule = require('./my-module.js');
+console.log(myModule.myFunction());
