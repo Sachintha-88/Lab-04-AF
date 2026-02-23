@@ -7,6 +7,7 @@ fs.readFile('file.txt', 'utf8', function (err, data) {
 });
 
 console.log("write file");
+
 const fs = require('fs');
 fs.writeFile('file.txt', 'Hello World!', function (err) {
  if (err) throw err;
