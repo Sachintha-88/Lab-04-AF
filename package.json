@@ -1,0 +1,19 @@
+{
+  "name": "lab-04-af",
+  "version": "1.0.0",
+  "description": "Lab-04-AF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sachintha-88/Lab-04-AF.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sachintha-88/Lab-04-AF/issues"
+  },
+  "homepage": "https://github.com/Sachintha-88/Lab-04-AF#readme"
+}
